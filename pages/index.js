@@ -74,7 +74,7 @@ function GlobalStyle() {
           styleSheet={{
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             backgroundColor: appConfig.theme.colors.primary['000'],
-            backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/i-turn-coffee-into-code-plaque-1024x576.jpg)',
+            backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/07/doctor-stranges-window-of-the-worlds-1024x576.jpg)',
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
           }}
         >
