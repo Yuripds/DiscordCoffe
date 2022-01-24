@@ -9,7 +9,7 @@ function Titulo(props){
 
         <style jsx>{`
                     ${Tag}{
-                        color: ${appConfig.theme.colors.neutrals['600']};
+                        color: ${appConfig.theme.colors.primary['050']};
                         font-size:24px;
                         font-weight: 600;
                     }
@@ -65,7 +65,7 @@ function GlobalStyle() {
 
 
  export default function PaginaInicial() {
-    const username = 'peas';
+    const username = 'Yuripds';
   
     return (
       <>
@@ -102,7 +102,7 @@ function GlobalStyle() {
               }}
             >
               <Titulo tag="h2">Boas vindas de volta!</Titulo>
-              <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
+              <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals['050'] }}>
                 {appConfig.name}
               </Text>
   
@@ -123,9 +123,9 @@ function GlobalStyle() {
                 fullWidth
                 buttonColors={{
                   contrastColor: appConfig.theme.colors.neutrals["000"],
-                  mainColor: appConfig.theme.colors.primary[500],
-                  mainColorLight: appConfig.theme.colors.primary[400],
-                  mainColorStrong: appConfig.theme.colors.primary[600],
+                  mainColor: appConfig.theme.colors.primary['800'],
+                  mainColorLight: appConfig.theme.colors.primary['400'],
+                  mainColorStrong: appConfig.theme.colors.primary['600'],
                 }}
               />
             </Box>
