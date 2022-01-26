@@ -60,9 +60,9 @@ function Titulo(props){
                 sm: 'row',
               },
               width: '100%', maxWidth: '700px',
-              borderRadius: '5px', padding: '32px', margin: '16px',
+              borderRadius: '100px 5%', padding: '32px', margin: '16px',
               boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
-              backgroundColor: appConfig.theme.colors.neutrals[700],
+              backgroundColor: appConfig.theme.colors.neutrals[400],
             }}
           >
             {/* Formulário */}
@@ -126,14 +126,14 @@ function Titulo(props){
                 backgroundColor: appConfig.theme.colors.neutrals[800],
                 border: '1px solid',
                 borderColor: appConfig.theme.colors.neutrals[999],
-                borderRadius: '10px',
+                borderRadius: '50px 5%',
                 flex: 1,
                 minHeight: '240px',
               }}
             >
               <Image
                 styleSheet={{
-                  borderRadius: '50%',
+                  borderRadius: '50px 5%',
                   marginBottom: '16px',
                 }}
                 src={`https://github.com/${username}.png`}
