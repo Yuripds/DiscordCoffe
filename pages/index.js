@@ -21,21 +21,6 @@ function Titulo(props){
     )
 }
 
-
-// function HomePage() {
-//     return (
-//         <div>
-//             <GlobalStyle></GlobalStyle>
-//             <Titulo tag="h2">Boas Vindas de volta!</Titulo>
-//             <h2>Discord Matrix </h2>
-
-//         </div>
-
-//     )
-//   }
- // export default HomePage
-
-
  export default function PaginaInicial() {
     //const username = 'Yuripds';
     const [username,setUsername] = React.useState('Yuripds');
@@ -70,7 +55,7 @@ function Titulo(props){
               as="form"
               onSubmit={function (infoDoEvento){
                 infoDoEvento.preventDefault();
-                roteamento.push('/chat');
+                roteamento.push(`/chat?username=${username}`);
 
               }}
 
